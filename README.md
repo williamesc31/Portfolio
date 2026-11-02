@@ -1,4 +1,4 @@
-# Colt Williames Data Science Portfolio
+#Data Science Portfolio
 
 A portfolio of applied machine learning, natural language processing, generative AI, and data analysis projects.
 
