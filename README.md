@@ -24,10 +24,6 @@ The website source is in `docs/`. To publish it, configure GitHub Pages to deplo
 9. New Project 02 — placeholder
 10. New Project 03 — placeholder
 
-## Repository status
-
-This repository currently contains the portfolio website and draft project documentation. Project notebooks, datasets or access instructions, and application code will be added as they are organized and verified. Previously reported metrics in the project summaries have not been revalidated in this repository.
-
 ## Site files
 
 - `docs/index.html` — About, Projects, and Contact sections
