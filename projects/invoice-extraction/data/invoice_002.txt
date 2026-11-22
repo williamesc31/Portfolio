@@ -1,0 +1,10 @@
+Invoice: DEMO-002
+Vendor: Sample Office Supply
+Customer: Example Services
+Date: 2026-02-10
+Quantity | Description | Unit price
+3 | Notebook | 4.99
+2 | Pen set | 8.50
+Subtotal: 31.97
+Tax: 0.00
+Total: 31.97

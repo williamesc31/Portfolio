@@ -1,33 +1,58 @@
-## Data Science Portfolio
+# Data Science Portfolio
 
-A portfolio of applied machine learning, natural language processing, generative AI, and data analysis projects.
+Colt Williames — applied machine learning, reproducible analysis, and data storytelling with an interest in financial services and customer experience.
 
-## Website
+**[Explore the portfolio website](https://williamesc31.github.io/Portfolio/)**
 
-The website source is in `docs/`. To publish it, configure GitHub Pages to deploy from the `main` branch and `/docs` folder. Use the URL shown in the repository's Pages settings after deployment.
+## Projects
 
-## Featured work
+Every project below contains a README, a runnable Python entry point, data or documented fixtures, and saved results. The ten default analysis commands passed end-to-end verification in Python 3.12. See [VERIFICATION.json](VERIFICATION.json) for the actual execution record, environment, and input/code hashes.
 
-- **Credit Risk Default Prediction** — preprocessing, feature engineering, logistic regression, and Random Forest evaluation.
-- **Financial Sentiment Analysis with Generative AI** — prompt engineering, LoRA adaptation, API integration, and a Streamlit interface.
+| Project | Focus | Source and results |
+| --- | --- | --- |
+| Credit Risk Default Prediction | Classification and the default-recall tradeoff | [Project](projects/credit-risk-prediction) |
+| Bank Marketing Under Distribution Shift | Ordered validation, pre-call features, and model auditing | [Project](projects/bank-marketing-targeting) |
+| Consumer Complaint Trends and Forecasting | CFPB label harmonization and seasonal baseline evaluation | [Project](projects/cfpb-complaint-forecasting) |
+| Childcare Prices and Household Affordability | County prices and a consistent nominal-income denominator | [Project](projects/childcare-affordability) |
+| Netflix Top 10 Engagement Analysis | Distinct viewing metrics and snapshot coverage | [Project](projects/netflix-engagement) |
+| Airport Complaint Patterns | Volume trends, category totals, and denominator limits | [Project](projects/tsa-complaints) |
+| Movie Discovery with Content Similarity | Genres, tags, TF-IDF, and cosine similarity | [Project](projects/movie-recommendations) |
+| Lottery Frequencies Without Prediction Claims | Draw validation and descriptive frequencies | [Project](projects/lottery-number-analysis) |
+| Public Appointment Log Analysis | Schema harmonization and anonymous aggregation | [Project](projects/white-house-visits) |
+| Invoice Extraction and Arithmetic Validation | Supported-layout parsing and exact decimal checks | [Project](projects/invoice-extraction) |
 
-## Project collection
+## Run the portfolio analyses
 
-1. Credit Risk Default Prediction
-2. Financial Sentiment Analysis with Generative AI
-3. Remote Work Trends Analysis
-4. Sentiment Analysis with TextBlob and VADER
-5. Retail Sales Time Series Analysis
-6. Movie Recommendation System
-7. Handwritten Digit Classification
-8. New Project 01 — placeholder
-9. New Project 02 — placeholder
-10. New Project 03 — placeholder
+Use Python 3.12. From the repository root:
 
-## Site files
+```bash
+python -m venv .venv
+# Activate .venv using the command for your operating system.
+python -m pip install -r requirements.txt
+python scripts/run_all.py
+```
 
-- `docs/index.html` — About, Projects, and Contact sections
-- `docs/styles.css` — responsive styling
-- `docs/app.js` — project details and category filters
-- `docs/readmes/` — two downloadable draft project READMEs
-- `GITHUB_PAGES_SETUP.md` — publishing and submission instructions
+For one project, run its `analyze.py` directly. All ten default commands use bundled snapshots or explicit fixtures. They require no API keys, paid model services, or GPUs. The visitor-log preparation script is an optional prior stage; its published aggregate snapshot is already included.
+
+After rerunning the analyses, refresh the website catalog and README result summaries with:
+
+```bash
+python scripts/build_portfolio.py
+```
+
+## Repository layout
+
+- `projects/<descriptive-name>/`: README, executable analysis, input snapshot, and outputs.
+- `projects/common.py`: shared plotting and JSON helpers.
+- `docs/`: GitHub Pages site, downloadable READMEs, and result illustrations.
+- `scripts/`: repository-wide verification and documentation generation.
+- `SOURCE_MANIFEST.json`: recovered input hashes and transformation notes.
+- `PORTFOLIO_NOTES.md`: refactoring decisions and interpretation limits.
+
+Dataset snapshots are fixed historical inputs. Their dates and scope are stated in each README. The MovieLens data retain the GroupLens usage conditions in [their data notice](projects/movie-recommendations/data/LICENSE.md); datasets are not relicensed as original portfolio code. Fictional invoice fixtures are labeled as regression examples. Fresh model results replace historical figures that could not be independently reproduced.
+
+## Website and contact
+
+The website includes About, Projects, and Contact sections and links directly to each project folder. GitHub Pages publishes the `docs` directory from `main`.
+
+[GitHub profile](https://github.com/williamesc31) · [Repository](https://github.com/williamesc31/Portfolio)

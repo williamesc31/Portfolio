@@ -1,0 +1,35 @@
+{
+  "movies": 9742,
+  "tag_rows": 3683,
+  "vocabulary_size": 5528,
+  "query": "Toy Story (1995)",
+  "recommendations": [
+    {
+      "movieId": 2355,
+      "title": "Bug's Life, A (1998)",
+      "similarity": 0.55022
+    },
+    {
+      "movieId": 2294,
+      "title": "Antz (1998)",
+      "similarity": 0.420284
+    },
+    {
+      "movieId": 3754,
+      "title": "Adventures of Rocky and Bullwinkle, The (2000)",
+      "similarity": 0.420284
+    },
+    {
+      "movieId": 4016,
+      "title": "Emperor's New Groove, The (2000)",
+      "similarity": 0.420284
+    },
+    {
+      "movieId": 4886,
+      "title": "Monsters, Inc. (2001)",
+      "similarity": 0.420284
+    }
+  ],
+  "method": "TF-IDF over genres and tags, cosine similarity, deterministic movieId tie-break",
+  "limits": "This is content similarity, not collaborative filtering. No ratings or held-out preference labels are available, so predictive recommendation accuracy is not claimed."
+}

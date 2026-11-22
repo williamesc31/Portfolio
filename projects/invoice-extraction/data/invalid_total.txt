@@ -1,0 +1,9 @@
+Invoice: INVALID-DEMO
+Vendor: Example Vendor
+Customer: Sample Customer
+Date: 2026-01-01
+Quantity | Description | Unit price
+1 | Example item | 10.00
+Subtotal: 10.00
+Tax: 1.00
+Total: 99.00

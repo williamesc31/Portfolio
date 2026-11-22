@@ -1,0 +1,10 @@
+Invoice: DEMO-001
+Vendor: Example Analytics Studio
+Customer: Sample Retail Company
+Date: 2026-01-15
+Quantity | Description | Unit price
+2 | Dashboard consultation | 125.00
+1 | Report preparation | 75.00
+Subtotal: 325.00
+Tax: 26.00
+Total: 351.00

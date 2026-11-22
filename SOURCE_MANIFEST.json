@@ -1,0 +1,95 @@
+[
+  {
+    "source_file": "credit_risk_dataset.csv",
+    "sha256": "ce3c6d2167717bf1627d1c0c81cbccd28323cd4aa7b96d542599366d5ff6aac8",
+    "original_bytes": 1804682,
+    "published_path": "projects/credit-risk-prediction/data/credit_risk.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "DSC680_Milestone3_Code_Colt_Williames/data/bank-additional/bank-additional-full.csv",
+    "sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+    "original_bytes": 5834924,
+    "published_path": "projects/bank-marketing-targeting/data/bank_marketing.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "DSC680_Project2_Milestone2_Analysis_Code_and_Data/analysis_project2/monthly_counts_harmonized.csv",
+    "sha256": "16e63e0b3d35b7dff8cc0c9a0f75b393d759d954cd8a5f410cf9c070cf6b1442",
+    "original_bytes": 47399,
+    "published_path": "projects/cfpb-complaint-forecasting/data/monthly_counts.csv"
+  },
+  {
+    "source_file": "Colt_Williames_Childcare_Analysis_Dataset.csv",
+    "sha256": "1d0765cfd5b24d8d6de39a53482636a03a3ce55cd5dde1e400055ad5e2bb6674",
+    "original_bytes": 2800144,
+    "published_path": "projects/childcare-affordability/data/childcare.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "movies(1).csv",
+    "sha256": "5a5f32dd9bb3797b8e728a1b98958789d2b13f294a69fdfbc5727f8a9611aa07",
+    "original_bytes": 494431,
+    "published_path": "projects/movie-recommendations/data/movies.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "ratings.csv",
+    "sha256": "92a9f8bb7916dceef6151209845788c3643f794dfa79d1feaec7121b5960399d",
+    "original_bytes": 118660,
+    "published_path": "projects/movie-recommendations/data/tags.csv"
+  },
+  {
+    "source_file": "complaints-by-airport(1).csv",
+    "sha256": "5ac8308d8be06a8e8f102332918cced79fd23aeba492d3058ddc8819400b2d19",
+    "original_bytes": 928041,
+    "published_path": "projects/tsa-complaints/data/complaints_by_airport.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "complaints-by-category(1).csv",
+    "sha256": "febc8f3208709c643e95c6bab1d13eef9b5c98bc5128b9659f57636416257419",
+    "original_rows": 241588,
+    "transformation": "Sum count by year_month and cleaned category label; airport detail omitted.",
+    "published_path": "projects/tsa-complaints/data/monthly_categories.csv"
+  },
+  {
+    "source_file": "all-weeks-global-netflix.xlsx",
+    "sha256": "55b98156e7fbbdce781b856a81bdc5c366657f027d480e521c8c79b6cd2232d7",
+    "original_rows": 5840,
+    "transformation": "Excel first sheet converted to CSV without changing records.",
+    "published_path": "projects/netflix-engagement/data/weekly_global.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "most-popular-netflix.xlsx",
+    "sha256": "9c1f586a13efee4ff07d1723d80084c30920d2fc735c810990a3c23e7a9e780c",
+    "original_rows": 40,
+    "transformation": "Excel first sheet converted to CSV without changing records.",
+    "published_path": "projects/netflix-engagement/data/most_popular.csv"
+  },
+  {
+    "source_file": "Lottery_Powerball_Winning_Numbers__Beginning_2010_20240421.csv",
+    "sha256": "ccd3b84449e177f53e5a40ae3aa3bf52124e2699c815f54355fe6f4d1bdcee9b",
+    "original_bytes": 49970,
+    "published_path": "projects/lottery-number-analysis/data/powerball.csv"
+  },
+  {
+    "source_file": "Lottery_Mega_Millions_Winning_Numbers__Beginning_2002_20240421.csv",
+    "sha256": "4bf2099ab634bf4600adeb342d5255c7a8e5d661b3cf9d2a9c6e5b04954f3fd0",
+    "original_bytes": 69760,
+    "published_path": "projects/lottery-number-analysis/data/mega_millions.csv"
+  },
+  {
+    "source_file": "Lottery_Pick_10_Winning_Numbers__Beginning_1987_20240421.csv",
+    "sha256": "69df3e1932666369b2e62c5bd256797fb85d7a7e96f905dc877801c4f6171141",
+    "original_bytes": 963496,
+    "published_path": "projects/lottery-number-analysis/data/pick_10.csv.gz",
+    "compression": "Lossless gzip; pandas infers compression from .gz"
+  },
+  {
+    "source_file": "white_house_combined_download.zip",
+    "published_path": "projects/white-house-visits/data/appointment_counts.csv",
+    "transformation": "Anonymous aggregates only. Detailed source hash and record counts are in data/provenance.json."
+  }
+]

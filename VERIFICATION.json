@@ -1,0 +1,112 @@
+{
+  "verified_at_utc": "2026-11-22T14:37:32.190580+00:00",
+  "python": "3.12.14",
+  "passed": 10,
+  "projects": [
+    {
+      "project": "credit-risk-prediction",
+      "command": "python projects/credit-risk-prediction/analyze.py",
+      "status": "passed",
+      "seconds": 4.74,
+      "results_sha256": "1aae03c1552f14a6cf7054d082b922b04150b6da60f204f20649d22c1521b5cc"
+    },
+    {
+      "project": "bank-marketing-targeting",
+      "command": "python projects/bank-marketing-targeting/analyze.py",
+      "status": "passed",
+      "seconds": 10.01,
+      "results_sha256": "b8999cedbe247c2576ebdcb6827317f909686d553692e149f44142416eaca49f"
+    },
+    {
+      "project": "cfpb-complaint-forecasting",
+      "command": "python projects/cfpb-complaint-forecasting/analyze.py",
+      "status": "passed",
+      "seconds": 0.95,
+      "results_sha256": "de2a30bb2ddb6ef474456a80db9eed394724a439dff6df4d4517e7ca8854d9b8"
+    },
+    {
+      "project": "childcare-affordability",
+      "command": "python projects/childcare-affordability/analyze.py",
+      "status": "passed",
+      "seconds": 0.8,
+      "results_sha256": "0a7f9e0989eaff3c6869cc61cf9eaadc8f9e85026d734cf83f6fa4086d4076d0"
+    },
+    {
+      "project": "netflix-engagement",
+      "command": "python projects/netflix-engagement/analyze.py",
+      "status": "passed",
+      "seconds": 0.78,
+      "results_sha256": "1d84de00efc403ecfa827e9d94d2304b7dd15acfcab858f53dbf4a62ae1d8bcf"
+    },
+    {
+      "project": "tsa-complaints",
+      "command": "python projects/tsa-complaints/analyze.py",
+      "status": "passed",
+      "seconds": 1.06,
+      "results_sha256": "45fced8ce16ed2c4d34605d503695440d149c109ee1f9d1a48700b1f62b701c7"
+    },
+    {
+      "project": "movie-recommendations",
+      "command": "python projects/movie-recommendations/analyze.py",
+      "status": "passed",
+      "seconds": 1.68,
+      "results_sha256": "719c09f60f0af51ab10a0820b3898d34a86caf6d803794999bc197dcb3dced50"
+    },
+    {
+      "project": "lottery-number-analysis",
+      "command": "python projects/lottery-number-analysis/analyze.py",
+      "status": "passed",
+      "seconds": 1.09,
+      "results_sha256": "9f917b1d448f4109d50de5010ef1967c94a5a746ce02ca9dd7809c30098f1f94"
+    },
+    {
+      "project": "white-house-visits",
+      "command": "python projects/white-house-visits/analyze.py",
+      "status": "passed",
+      "seconds": 0.82,
+      "results_sha256": "44ef382fe84098dc5f72652b257b95c015d9cf4647779d9007310661dca7dd64"
+    },
+    {
+      "project": "invoice-extraction",
+      "command": "python projects/invoice-extraction/analyze.py",
+      "status": "passed",
+      "seconds": 0.03,
+      "results_sha256": "9f24b63f835dc5dfe593afee8c3597e43c354c7b1703eab1d7ed65b646da41e2"
+    }
+  ],
+  "input_and_code_sha256": {
+    "projects/bank-marketing-targeting/analyze.py": "c431beb5e42050e0bb5b73e1e7b4fb5cb0c752f65cf854749caff6908d49fefb",
+    "projects/bank-marketing-targeting/data/bank_marketing.csv.gz": "971b7bbd16fa38d88fe2399afb0b981035d4ee5e9456c91526a9df4265acf21d",
+    "projects/cfpb-complaint-forecasting/analyze.py": "393b69071a4b72c99cf92f1407167e29b6679765f84d5cc7be20f71719d6d4d6",
+    "projects/cfpb-complaint-forecasting/data/monthly_counts.csv": "16e63e0b3d35b7dff8cc0c9a0f75b393d759d954cd8a5f410cf9c070cf6b1442",
+    "projects/childcare-affordability/analyze.py": "93f8070bf487d26a3bb9bb040548e9a0fe46fa3f526b083d0b7aaf58553b1e27",
+    "projects/childcare-affordability/data/childcare.csv.gz": "2041707fe115993b73b698b444dcde8906882ade8e08579e720fbbc692f49b22",
+    "projects/common.py": "bbdf8f298eb5bf0c29d80691d3d6f0958a664fca9ab983650468f00f9085b985",
+    "projects/credit-risk-prediction/analyze.py": "f43f42774872061630ecb1bbc021a280b335b10d35037888feb3cf99ac44347c",
+    "projects/credit-risk-prediction/data/credit_risk.csv.gz": "ce0dc2c8ff0102b3ded4117dd544b9076cd5efc29eed70249e5e8decb1336875",
+    "projects/invoice-extraction/analyze.py": "7fa361bb4649e3965e9585fb5b5a1ae4dcd6e2b620e32175009f0e8de46214d2",
+    "projects/invoice-extraction/data/invalid_total.txt": "3f3ff9553c0aa555f2d31995f475e7942cb571e4994e9087dcfd3bcc0d3b91fc",
+    "projects/invoice-extraction/data/invoice_001.txt": "ae0255cd6d12eb651225970e9ecdf8090066990e3aea7ca954775e86725f0d36",
+    "projects/invoice-extraction/data/invoice_002.txt": "8b190a2fcdc9b091d1da9919ea23d34ddb6ece698eeca51cea2da2dbcb76dd48",
+    "projects/invoice-extraction/data/invoice_003.txt": "08985f8b956c28590dc584a69504557381a69609473ce0c7185d26c142603bf9",
+    "projects/lottery-number-analysis/analyze.py": "a0bf9117462e3c64ed4517a7f0a52f6f39310ba532d818b3714fda9f4d0ed218",
+    "projects/lottery-number-analysis/data/mega_millions.csv": "4bf2099ab634bf4600adeb342d5255c7a8e5d661b3cf9d2a9c6e5b04954f3fd0",
+    "projects/lottery-number-analysis/data/pick_10.csv.gz": "cdc7ee17570cd5abbb09a1826d62ff4529057406b463099460827561d6eeaab1",
+    "projects/lottery-number-analysis/data/powerball.csv": "ccd3b84449e177f53e5a40ae3aa3bf52124e2699c815f54355fe6f4d1bdcee9b",
+    "projects/movie-recommendations/analyze.py": "09026a796faf8b07ba19ba7e6686b232b06c75807c0cf3c3d85d32019ef60851",
+    "projects/movie-recommendations/data/LICENSE.md": "2c73f9c1eb40f68206d4fd7c3bbe3b6f44db1f7f512314f7b3b58ededd9ce9e8",
+    "projects/movie-recommendations/data/movies.csv.gz": "963a7d407172df74b33cd338a4f2fedbc066563cfe2778582de421346260a793",
+    "projects/movie-recommendations/data/tags.csv": "92a9f8bb7916dceef6151209845788c3643f794dfa79d1feaec7121b5960399d",
+    "projects/netflix-engagement/analyze.py": "2fdfc1555cfe2e613a6e0223c81594ad2677544383eba4e184776a5db7e82c2c",
+    "projects/netflix-engagement/data/most_popular.csv": "f1c3988746157f99068e6d39176027f0b67c8a042d2c5b0b534fb81b504433bd",
+    "projects/netflix-engagement/data/weekly_global.csv.gz": "62f043c1e5ab57ba9f1e4d36ebc9ccb2f9705ac6e6e5ed02894bd8105f40f5e2",
+    "projects/tsa-complaints/analyze.py": "0134215907b694ae42f7b563c43133d7b5435f52dd431c4415cf938c1f0407eb",
+    "projects/tsa-complaints/data/complaints_by_airport.csv.gz": "660198143ff878c84bf3adc023e1ed5039ce3996489861f47800f3dcf57f9d11",
+    "projects/tsa-complaints/data/monthly_categories.csv": "6dc9e810d4b12e63619b7e9877979b1a2a7ec7be82a583fba78fae501d1ef62c",
+    "projects/white-house-visits/analyze.py": "fd546fbf41feb29661fee20f02860e1633490c59be71b8a8dd40fa885c1260d9",
+    "projects/white-house-visits/data/appointment_counts.csv": "eb3f76e9bd99134044ee840ef6febcbee0314aef1edfb34095d177ee774b92c6",
+    "projects/white-house-visits/data/provenance.json": "f98309442048c4072251536a805f29f072465c556ff86ee2a21107b4bf84e02a",
+    "projects/white-house-visits/prepare_snapshot.py": "7d5c3a8cc3b8f43a52bf53bb555ee30df3e7ba506ce8f3c0ac1be6e915d51ee7"
+  },
+  "scope": "All default analysis commands executed end to end against bundled snapshots. No paid API, GPU, or external service required."
+}

@@ -1,0 +1,201 @@
+{
+  "data": {
+    "rows": 41188,
+    "columns": [
+      "age",
+      "job",
+      "marital",
+      "education",
+      "default",
+      "housing",
+      "loan",
+      "contact",
+      "month",
+      "day_of_week",
+      "duration",
+      "campaign",
+      "pdays",
+      "previous",
+      "poutcome",
+      "emp.var.rate",
+      "cons.price.idx",
+      "cons.conf.idx",
+      "euribor3m",
+      "nr.employed",
+      "y"
+    ],
+    "duplicates": 12,
+    "overall_subscriptions": 4640,
+    "unknowns": {
+      "job": 330,
+      "marital": 80,
+      "education": 1731,
+      "default": 8597,
+      "housing": 990,
+      "loan": 990,
+      "contact": 0,
+      "month": 0,
+      "day_of_week": 0,
+      "poutcome": 0
+    },
+    "splits": {
+      "train": {
+        "n": 24712,
+        "positives": 1188,
+        "rate": 0.04807381029459372
+      },
+      "validation": {
+        "n": 8238,
+        "positives": 912,
+        "rate": 0.11070648215586307
+      },
+      "test": {
+        "n": 8238,
+        "positives": 2540,
+        "rate": 0.3083272638990046
+      }
+    }
+  },
+  "validation": {
+    "Logistic regression": {
+      "roc_auc": 0.4881085481414429,
+      "avg_precision": 0.09866603507169372,
+      "precision_at_05": 0.0,
+      "recall_at_05": 0.0,
+      "f1_at_05": 0.0,
+      "confusion_matrix": [
+        [
+          7326,
+          0
+        ],
+        [
+          912,
+          0
+        ]
+      ],
+      "top20": {
+        "k": 1648,
+        "positives": 84,
+        "precision": 0.050970873786407765,
+        "lift": 0.46041453755748596,
+        "capture": 0.09210526315789473
+      }
+    },
+    "Random forest": {
+      "roc_auc": 0.5083127385758964,
+      "avg_precision": 0.10855692387983837,
+      "precision_at_05": 0.0,
+      "recall_at_05": 0.0,
+      "f1_at_05": 0.0,
+      "confusion_matrix": [
+        [
+          7326,
+          0
+        ],
+        [
+          912,
+          0
+        ]
+      ],
+      "top20": {
+        "k": 1648,
+        "positives": 164,
+        "precision": 0.09951456310679611,
+        "lift": 0.8989045733265202,
+        "capture": 0.17982456140350878
+      }
+    }
+  },
+  "selected_by_validation_avg_precision": "Random forest",
+  "test": {
+    "Logistic regression": {
+      "roc_auc": 0.7483210368052888,
+      "avg_precision": 0.526834200244777,
+      "precision_at_05": 0.5944444444444444,
+      "recall_at_05": 0.33700787401574805,
+      "f1_at_05": 0.4301507537688442,
+      "confusion_matrix": [
+        [
+          5114,
+          584
+        ],
+        [
+          1684,
+          856
+        ]
+      ],
+      "top20": {
+        "k": 1648,
+        "positives": 979,
+        "precision": 0.5940533980582524,
+        "lift": 1.9266975957495605,
+        "capture": 0.38543307086614176
+      }
+    },
+    "Random forest": {
+      "roc_auc": 0.7381727391569911,
+      "avg_precision": 0.5236795729968771,
+      "precision_at_05": 0.0,
+      "recall_at_05": 0.0,
+      "f1_at_05": 0.0,
+      "confusion_matrix": [
+        [
+          5698,
+          0
+        ],
+        [
+          2540,
+          0
+        ]
+      ],
+      "top20": {
+        "k": 1648,
+        "positives": 946,
+        "precision": 0.5740291262135923,
+        "lift": 1.8617527329714854,
+        "capture": 0.3724409448818898
+      }
+    }
+  },
+  "age_audit": {
+    "17\u201334": {
+      "n": 3765,
+      "response_rate": 0.28950863213811423,
+      "selected_rate": 0.17131474103585656,
+      "selected_n": 645
+    },
+    "35\u201354": {
+      "n": 3142,
+      "response_rate": 0.28516868236791854,
+      "selected_rate": 0.1578612348822406,
+      "selected_n": 496
+    },
+    "55+": {
+      "n": 1331,
+      "response_rate": 0.41622839969947406,
+      "selected_rate": 0.38091660405709993,
+      "selected_n": 507
+    }
+  },
+  "permutation_importance_validation_ap_drop": {
+    "month": 0.016643060831026207,
+    "age": 0.010233285811841214,
+    "poutcome": 0.0009525576000669981,
+    "loan": 0.0006018563301992222,
+    "marital": 0.0005059723714026751,
+    "previous": 0.0002316763493307635,
+    "pdays": 0.0,
+    "emp.var.rate": 0.0,
+    "cons.price.idx": 0.0,
+    "euribor3m": 0.0,
+    "education": -8.913083882917024e-05,
+    "cons.conf.idx": -0.0003290976265495858,
+    "housing": -0.00042144421719517616,
+    "campaign": -0.0007573165089644063,
+    "default": -0.0008168229292081867,
+    "day_of_week": -0.002178079525258711,
+    "contact": -0.0028350561665789983,
+    "job": -0.003994846741780425,
+    "nr.employed": -0.018541197661043618
+  }
+}

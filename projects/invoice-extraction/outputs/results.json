@@ -1,0 +1,11 @@
+{
+  "valid_fixtures_processed": 3,
+  "invalid_total_fixture_rejected": true,
+  "invoice_numbers": [
+    "DEMO-001",
+    "DEMO-002",
+    "DEMO-003"
+  ],
+  "method": "Anchored field extraction, explicit line-item grammar, ISO date validation, exact Decimal arithmetic",
+  "limits": "Fixtures are fictional regression examples, not a benchmark. This local parser supports the documented text layout; it does not perform OCR or call an LLM."
+}

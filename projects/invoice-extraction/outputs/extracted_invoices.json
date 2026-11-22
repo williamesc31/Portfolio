@@ -1,0 +1,77 @@
+[
+  {
+    "invoice_number": "DEMO-001",
+    "vendor": "Example Analytics Studio",
+    "customer": "Sample Retail Company",
+    "date": "2026-01-15",
+    "currency": "USD",
+    "line_items": [
+      {
+        "quantity": "2",
+        "description": "Dashboard consultation",
+        "unit_price": "125.00",
+        "line_total": "250.00"
+      },
+      {
+        "quantity": "1",
+        "description": "Report preparation",
+        "unit_price": "75.00",
+        "line_total": "75.00"
+      }
+    ],
+    "subtotal": "325.00",
+    "tax": "26.00",
+    "total": "351.00",
+    "arithmetic_valid": true
+  },
+  {
+    "invoice_number": "DEMO-002",
+    "vendor": "Sample Office Supply",
+    "customer": "Example Services",
+    "date": "2026-02-10",
+    "currency": "USD",
+    "line_items": [
+      {
+        "quantity": "3",
+        "description": "Notebook",
+        "unit_price": "4.99",
+        "line_total": "14.97"
+      },
+      {
+        "quantity": "2",
+        "description": "Pen set",
+        "unit_price": "8.50",
+        "line_total": "17.00"
+      }
+    ],
+    "subtotal": "31.97",
+    "tax": "0.00",
+    "total": "31.97",
+    "arithmetic_valid": true
+  },
+  {
+    "invoice_number": "DEMO-003",
+    "vendor": "Example Design Co",
+    "customer": "Sample Research Team",
+    "date": "2026-03-20",
+    "currency": "USD",
+    "line_items": [
+      {
+        "quantity": "1.5",
+        "description": "Design support hours",
+        "unit_price": "80.00",
+        "line_total": "120.00"
+      },
+      {
+        "quantity": "1",
+        "description": "Template license",
+        "unit_price": "30.00",
+        "line_total": "30.00"
+      }
+    ],
+    "subtotal": "150.00",
+    "tax": "12.00",
+    "total": "162.00",
+    "arithmetic_valid": true
+  }
+]

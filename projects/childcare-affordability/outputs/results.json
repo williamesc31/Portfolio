@@ -1,0 +1,11 @@
+{
+  "source_rows": 23342,
+  "analysis_rows": 23342,
+  "year_start": 2008,
+  "year_end": 2018,
+  "latest_counties": 2340,
+  "latest_median_weekly_center_infant": 153.6,
+  "latest_median_burden_pct": 16.086520880335833,
+  "income_denominator": "MHI (nominal), not inflation-adjusted MHI_2018",
+  "limits": "The saved snapshot is already filtered to counties with both infant-price measures. County medians are unweighted, not population-weighted state estimates."
+}

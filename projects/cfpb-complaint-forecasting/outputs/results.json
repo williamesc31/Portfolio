@@ -1,0 +1,136 @@
+{
+  "extraction_date": "2026-11-15",
+  "months": 96,
+  "range": "2018-01 to 2025-12",
+  "last_indexed_values": [
+    "2026-11-15T12:00:00-05:00"
+  ],
+  "annual_counts": {
+    "2018": {
+      "credit_card": 22960,
+      "checking_savings": 21207
+    },
+    "2019": {
+      "credit_card": 23965,
+      "checking_savings": 21734
+    },
+    "2020": {
+      "credit_card": 28526,
+      "checking_savings": 24238
+    },
+    "2021": {
+      "credit_card": 27656,
+      "checking_savings": 29556
+    },
+    "2022": {
+      "credit_card": 36582,
+      "checking_savings": 37582
+    },
+    "2023": {
+      "credit_card": 54413,
+      "checking_savings": 49873
+    },
+    "2024": {
+      "credit_card": 75989,
+      "checking_savings": 52821
+    },
+    "2025": {
+      "credit_card": 89978,
+      "checking_savings": 84195
+    }
+  },
+  "baseline_2025": {
+    "credit_card": {
+      "label": "Credit card",
+      "annual_2024": 75989,
+      "annual_2025": 89978,
+      "growth_pct": 18.40924344312993,
+      "mae": 1165.75,
+      "rmse": 1514.0975034653482,
+      "wape_pct": 15.54713374380404,
+      "bias": 1165.75,
+      "q1_mae": 1741.0,
+      "months_underforecast": 12,
+      "months_overforecast": 0,
+      "monthly_2025_min": 6213,
+      "monthly_2025_max": 9073,
+      "monthly_2025_min_month": 2,
+      "monthly_2025_max_month": 1,
+      "actual_2025": [
+        9073,
+        6213,
+        6255,
+        6897,
+        7515,
+        7364,
+        8105,
+        7919,
+        8504,
+        7413,
+        6861,
+        7859
+      ],
+      "forecast_2025": [
+        5247,
+        5182,
+        5889,
+        6676,
+        6760,
+        5535,
+        6192,
+        7355,
+        7185,
+        7176,
+        6095,
+        6697
+      ],
+      "cv_2018_2024": 0.4932879858281566
+    },
+    "checking_savings": {
+      "label": "Checking or savings account",
+      "annual_2024": 52821,
+      "annual_2025": 84195,
+      "growth_pct": 59.396830805929454,
+      "mae": 2614.5,
+      "rmse": 4435.024633527981,
+      "wape_pct": 37.26349545697488,
+      "bias": 2614.5,
+      "q1_mae": 5589.0,
+      "months_underforecast": 12,
+      "months_overforecast": 0,
+      "monthly_2025_min": 5070,
+      "monthly_2025_max": 18367,
+      "monthly_2025_min_month": 3,
+      "monthly_2025_max_month": 1,
+      "actual_2025": [
+        18367,
+        5452,
+        5070,
+        5229,
+        5394,
+        5557,
+        6403,
+        6505,
+        6141,
+        6308,
+        6077,
+        7692
+      ],
+      "forecast_2025": [
+        4032,
+        3833,
+        4257,
+        4327,
+        4539,
+        3886,
+        4329,
+        4683,
+        4270,
+        4692,
+        5175,
+        4798
+      ],
+      "cv_2018_2024": 0.38353266281700993
+    }
+  }
+}

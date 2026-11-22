@@ -1,0 +1,9 @@
+{
+  "source_archive": "white_house_combined_download.zip",
+  "source_sha256": "bc42de5824f11aeaf585c95ae138d844c686ce04d192d64f18d7b7b967b2e44f",
+  "source_records": 1207458,
+  "excluded_missing_or_out_of_range_appointment_dates": 0,
+  "retained_records": 1207458,
+  "aggregation": "Appointment month, weekday, cancellation indicator, access type. No visitor names or identifiers retained.",
+  "schema_handling": "Coalesce corresponding legacy and display-name columns; do not rename them into duplicate column labels."
+}

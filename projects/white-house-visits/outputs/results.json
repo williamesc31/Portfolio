@@ -1,0 +1,10 @@
+{
+  "retained_records": 1207458,
+  "first_month": "2021-01",
+  "last_month": "2023-12",
+  "busiest_month": "2023-12",
+  "canceled_record_share": 0.0006724871589736455,
+  "aggregate_rows": 340,
+  "excluded_date_records": 0,
+  "limits": "Records describe appointments, not unique visitors, confirmed attendance, political influence, or access probability. Release practices and schema differences affect coverage."
+}

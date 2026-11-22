@@ -1,0 +1,30 @@
+{
+  "games": {
+    "Powerball": {
+      "draws": 1617,
+      "first_draw": "2010-02-03",
+      "last_draw": "2024-04-20",
+      "main_number_observations": 8085,
+      "most_frequent_observed_number": 36,
+      "most_frequent_count": 145
+    },
+    "Mega Millions": {
+      "draws": 2285,
+      "first_draw": "2002-05-17",
+      "last_draw": "2024-04-16",
+      "main_number_observations": 11425,
+      "most_frequent_observed_number": 31,
+      "most_frequent_count": 219
+    },
+    "Pick 10": {
+      "draws": 13570,
+      "first_draw": "1987-01-12",
+      "last_draw": "2024-04-20",
+      "main_number_observations": 271400,
+      "most_frequent_observed_number": 58,
+      "most_frequent_count": 3541
+    }
+  },
+  "special_balls": "Excluded from main-number counts",
+  "limits": "Games changed number pools and rules during these histories. Pooled counts are descriptive and are not a uniform-probability test, evidence of predictability, or a strategy for future draws."
+}

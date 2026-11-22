@@ -1,0 +1,61 @@
+{
+  "source_rows": 32581,
+  "exact_duplicates_removed": 165,
+  "invalid_age_rows_removed": 5,
+  "employment_values_imputed": 2,
+  "analysis_rows": 32411,
+  "train_rows": 25928,
+  "test_rows": 6483,
+  "test_default_rate": 0.2187258985037791,
+  "split": "Stratified 80/20, random_state=42",
+  "features": [
+    "person_age",
+    "log_income",
+    "person_emp_length",
+    "log_loan_amount",
+    "loan_int_rate",
+    "loan_to_income",
+    "emp_to_age",
+    "person_home_ownership",
+    "loan_intent"
+  ],
+  "models": {
+    "logistic_regression": {
+      "test_accuracy": 0.7863643374980719,
+      "test_roc_auc": 0.8608378804734502,
+      "test_average_precision": 0.6952973840264465,
+      "default_precision": 0.5075445816186557,
+      "default_recall": 0.7827926657263752,
+      "default_f1": 0.6158113730929264,
+      "confusion_matrix": [
+        [
+          3988,
+          1077
+        ],
+        [
+          308,
+          1110
+        ]
+      ]
+    },
+    "random_forest": {
+      "test_accuracy": 0.9213327163350301,
+      "test_roc_auc": 0.9204363722941674,
+      "test_average_precision": 0.8646031173746739,
+      "default_precision": 0.942495126705653,
+      "default_recall": 0.6819464033850494,
+      "default_f1": 0.7913256955810147,
+      "confusion_matrix": [
+        [
+          5006,
+          59
+        ],
+        [
+          451,
+          967
+        ]
+      ]
+    }
+  },
+  "limits": "Interest rate is a loan-pricing-stage feature. This is a dataset benchmark, not a validated lending policy."
+}

@@ -1,0 +1,31 @@
+{
+  "weekly_rows": 5840,
+  "first_week": "2021-07-04",
+  "last_week": "2024-04-14",
+  "distinct_title_seasons": 2113,
+  "categories": [
+    {
+      "category": "Films (English)",
+      "hours": 22069420000,
+      "listed_records": 1460
+    },
+    {
+      "category": "Films (Non-English)",
+      "hours": 9680460000,
+      "listed_records": 1460
+    },
+    {
+      "category": "TV (English)",
+      "hours": 46591630000,
+      "listed_records": 1460
+    },
+    {
+      "category": "TV (Non-English)",
+      "hours": 29740210000,
+      "listed_records": 1460
+    }
+  ],
+  "top_first_91_day_title": "Squid Game",
+  "weeks_with_views": 44,
+  "limits": "Top 10 inclusion is a selected sample, not all Netflix viewing. Hours, weekly views, and first-91-day views measure different things. Snapshot dates are read from the data."
+}

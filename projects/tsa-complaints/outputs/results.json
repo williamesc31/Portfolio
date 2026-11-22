@@ -1,0 +1,13 @@
+{
+  "airport_rows": 41721,
+  "first_month": "2015-01-01",
+  "last_month": "2024-01-01",
+  "total_airport_complaints": 1021281,
+  "airports": 448,
+  "top_airport": "LAX",
+  "top_10_airports_share": 0.34935003727538366,
+  "top_category": "Expedited Passenger Screening Program",
+  "category_total": 1021281,
+  "airport_and_category_totals_match": true,
+  "limits": "Raw complaints are not rates per passenger. High-volume airports can have more complaints simply because they serve more travelers. A complaint may be categorized differently across source tables."
+}

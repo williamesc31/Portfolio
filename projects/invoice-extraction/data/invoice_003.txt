@@ -1,0 +1,10 @@
+Invoice: DEMO-003
+Vendor: Example Design Co
+Customer: Sample Research Team
+Date: 2026-03-20
+Quantity | Description | Unit price
+1.5 | Design support hours | 80.00
+1 | Template license | 30.00
+Subtotal: 150.00
+Tax: 12.00
+Total: 162.00
