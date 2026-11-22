@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-Colt Williames — applied machine learning, reproducible analysis, and data storytelling with an interest in financial services and customer experience.
+Applied machine learning, reproducible analysis, and data storytelling with an interest in financial services and customer experience.
 
 **[Explore the portfolio website](https://williamesc31.github.io/Portfolio/)**
 
